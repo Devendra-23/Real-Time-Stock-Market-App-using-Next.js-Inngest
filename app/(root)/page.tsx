@@ -1,3 +1,5 @@
+"use client";
+
 import TradingViewWidget from "@/components/TradingViewWidget";
 import { Button } from "@/components/ui/button";
 import {

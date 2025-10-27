@@ -1,4 +1,5 @@
 "use client";
+
 import { useForm } from "react-hook-form";
 import { Button } from "@/components/ui/button";
 import InputField from "@/components/forms/InputField";
@@ -15,6 +16,7 @@ import { useRouter } from "next/navigation";
 import { toast } from "sonner";
 
 const SignUp = () => {
+  const router = useRouter();
   const {
     register,
     handleSubmit,
@@ -25,7 +27,7 @@ const SignUp = () => {
       fullName: "",
       email: "",
       password: "",
-      country: "UK",
+      country: "US",
       investmentGoals: "Growth",
       riskTolerance: "Medium",
       preferredIndustry: "Technology",
@@ -48,21 +50,22 @@ const SignUp = () => {
 
   return (
     <>
-      <h1 className="form-title">Sign Up & Personalise</h1>
+      <h1 className="form-title">Sign Up & Personalize</h1>
+
       <form onSubmit={handleSubmit(onSubmit)} className="space-y-5">
         <InputField
           name="fullName"
           label="Full Name"
-          placeholder="Thor Odinson"
+          placeholder="Bruce Wayne"
           register={register}
           error={errors.fullName}
-          validation={{ required: "Full Name is required", minLength: 2 }}
+          validation={{ required: "Full name is required", minLength: 2 }}
         />
 
         <InputField
           name="email"
           label="Email"
-          placeholder="Odinson@Asgard.com"
+          placeholder="contact@gmail.com"
           register={register}
           error={errors.email}
           validation={{
@@ -75,7 +78,7 @@ const SignUp = () => {
         <InputField
           name="password"
           label="Password"
-          placeholder="Enter your password"
+          placeholder="Enter a strong password"
           type="password"
           register={register}
           error={errors.password}
@@ -129,13 +132,12 @@ const SignUp = () => {
         </Button>
 
         <FooterLink
-          text="Don't have an account?"
-          linkText="Create an account"
-          href="/sign-up"
+          text="Already have an account?"
+          linkText="Sign in"
+          href="/sign-in"
         />
       </form>
     </>
   );
 };
-
 export default SignUp;

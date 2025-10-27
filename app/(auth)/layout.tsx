@@ -14,8 +14,8 @@ const Layout = async ({ children }: { children: React.ReactNode }) => {
       <section className="auth-left-section scrollbar-hide-default">
         <Link href="/" className="auth-logo">
           <Image
-            src="/assets/images/Dev.png"
-            alt="DEVSTOCK LOGO"
+            src="/assets/icons/logo.svg"
+            alt="DevStock logo"
             width={140}
             height={32}
             className="h-8 w-auto"
@@ -33,7 +33,7 @@ const Layout = async ({ children }: { children: React.ReactNode }) => {
           </blockquote>
           <div className="flex items-center justify-between">
             <div>
-              <cite className="auth-testimonial-author">- Tom F.</cite>
+              <cite className="auth-testimonial-author">- Tom FA.</cite>
               <p className="max-md:text-xs text-gray-500">Retail Investor</p>
             </div>
             <div className="flex items-center gap-0.5">
