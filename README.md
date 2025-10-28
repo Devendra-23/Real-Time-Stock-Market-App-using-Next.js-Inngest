@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Real-Time Stock Market App using Next.js and Inngest
+The Real-Time Stock Market App provides live financial data, market trends, and stock insights using TradingView widgets and real-time updates. The project integrates dynamic data visualisation with a clean UI for an enhanced user experience.
 
-## Getting Started
+# Features
+- 📊 Market Overview — Displays live charts for top indices and stock movements.
 
-First, run the development server:
+- 🔥 Stock Heatmap — Visualizes market sentiment across major sectors.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- 📰 Top Stories — Fetches the latest financial and stock market news.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 💹 Market Quotes — Shows real-time quotes and financial statistics.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- ⚙️ Backend Integration — Uses Inngest for background event handling and real-time updates.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- 🔒 User Authentication — Powered by Better Auth with secure login and session handling.
 
-## Learn More
+# Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- Frontend: Next.js 14 (App Router), TypeScript, Tailwind CSS
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Backend: Node.js, Inngest
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Database: MongoDB with Mongoose
 
-## Deploy on Vercel
+- UI Components: shadcn/ui, TradingView Widgets
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Authentication: Better Auth
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Deployment
+- This project is deployed on Vercel.
+- Live Link: [https://devstock-kappa.vercel.app/]
+
+# Result
+<img width="1440" height="808" alt="Screenshot 2025-10-28 at 5 05 44 PM" src="https://github.com/user-attachments/assets/8723d212-bfdb-437e-b960-9bb63f52b25b" />
+<img width="1440" height="808" alt="Screenshot 2025-10-28 at 5 06 05 PM" src="https://github.com/user-attachments/assets/fbcbfb35-f156-44a1-ae82-22ba16e4d379" />
+<img width="1440" height="808" alt="Screenshot 2025-10-28 at 5 06 29 PM" src="https://github.com/user-attachments/assets/568f44b3-9928-40c7-819d-8ee7cc498772" />
+<img width="1440" height="808" alt="Screenshot 2025-10-28 at 5 06 40 PM" src="https://github.com/user-attachments/assets/323f906b-a588-407c-a993-e33a2fbbdfaa" />
