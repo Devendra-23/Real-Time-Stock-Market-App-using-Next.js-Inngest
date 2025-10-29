@@ -1,6 +1,9 @@
 # Real-Time Stock Market App using Next.js and Inngest
 The Real-Time Stock Market App provides live financial data, market trends, and stock insights using TradingView widgets and real-time updates. The project integrates dynamic data visualisation with a clean UI for an enhanced user experience.
 
+# 🔗 **Live Demo**: [https://devstock-kappa.vercel.app/](https://devstock-kappa.vercel.app/)
+- This project is deployed on Vercel.
+
 # Features
 - 📊 Market Overview — Displays live charts for top indices and stock movements.
 
@@ -26,9 +29,6 @@ The Real-Time Stock Market App provides live financial data, market trends, and 
 
 - Authentication: Better Auth
 
-# Deployment
-- This project is deployed on Vercel.
-- Live Link: [https://devstock-kappa.vercel.app/]
 
 # Result
 <img width="1440" height="808" alt="Screenshot 2025-10-28 at 5 05 44 PM" src="https://github.com/user-attachments/assets/8723d212-bfdb-437e-b960-9bb63f52b25b" />
